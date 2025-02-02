@@ -6,7 +6,7 @@ export const Navbar = () => {
   const { buttonEnter, leave } = useCursor();
 
   return (
-    <nav className="fixed top-0 z-10 flex w-full max-w-screen items-center justify-between p-6">
+    <nav className="fixed top-0 z-100 flex w-full max-w-screen items-center justify-between p-6">
       <div className="flex flex-1 content-center items-center gap-20">
         <button
           onMouseEnter={buttonEnter}

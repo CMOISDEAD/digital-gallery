@@ -11,7 +11,7 @@ export const Details = () => {
   const { textEnter, leave } = useCursor();
 
   return (
-    <div className="relative h-screen md:w-2/6">
+    <div className="relative z-10 h-screen md:w-2/6">
       <motion.img
         key={painting.image}
         initial={{ opacity: 0 }}
@@ -25,7 +25,7 @@ export const Details = () => {
         <h1
           onMouseEnter={textEnter}
           onMouseLeave={leave}
-          className="font-bodoni text-6xl font-bold md:text-7xl lg:text-8xl"
+          className="font-bodoni w-full text-center text-6xl font-bold md:text-start md:text-7xl lg:text-8xl"
         >
           {painting.title}
         </h1>

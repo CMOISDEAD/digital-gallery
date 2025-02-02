@@ -31,7 +31,7 @@ export const Paintings = () => {
   );
 
   return (
-    <div className="flex h-screen flex-col gap-6 overflow-hidden px-6 pt-24 pb-4 md:w-3/6">
+    <div className="flex h-screen flex-col gap-6 px-6 pt-24 pb-4 md:w-3/6">
       {/* @ts-expect-error bad type*/}
       <motion.div
         {...bind()}
